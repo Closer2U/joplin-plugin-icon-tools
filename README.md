@@ -1,6 +1,13 @@
-# icon_tool.py
+# Icon generation for Joplin Notebooks
 
-## Usage
+The tool takes SVG-files as input and recursively applies a pre-defined color scheme, then exports them to PNG-files.
+
+>[!INFO]
+>A *plugin* that automatically applies these icons within the Joplin Desktop App is currently planned.
+
+## icon_tool.py 
+
+### Usage
 ```shell
   # Process an entire source tree (recommended)
   python3 icon_tool.py process-tree ./source_icons --out-dir ./output
@@ -18,6 +25,7 @@
 > Tested for [Tabler Icons](https://tabler.io/icons).
 > Other icons need adjustment. E.g. no color at all, then the <g>-Tag is set with a fill=""
 
+
 Color targets replaced (in order, non-destructively):
   1. fill="currentColor"   → decade color  (SecondLevel filled icons)
   2. stroke="currentColor" → decade color  (outline / dot icons)
@@ -26,7 +34,7 @@ Color targets replaced (in order, non-destructively):
 
 All other colors (status strokes/fills like #19F781) are left untouched.
 
-###  --- 26.05.2026 
+####  --- 26.05.2026 v2
 `icon_resort.py` is now redundant for new runs — you only need it to re-sort files you generated with the old tool.Output now goes directly to the sorted structure in one shot:
 
 ```
@@ -45,13 +53,10 @@ python3 icon_tool.py to-png output/svg --out-dir output/png
 ```
 
 
-### --- 25.05.2026
-Original version
-
-
-# icon-resort.py
+## icon_resort.py
 
 Handles resorting from Hierarchy based to Area based (for easier selecting when assigning new icons manually).
+Is impemented in icon_tool.py Version 2.
 
 ```bash
 # Move files (destructive — use on a copy first if unsure)
