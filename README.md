@@ -2,8 +2,8 @@
 
 The tool takes SVG-files as input and recursively applies a pre-defined color scheme, then exports them to PNG-files.
 
->[!INFO]
->A *plugin* that automatically applies these icons within the Joplin Desktop App is currently planned.
+> [!NOTE]
+> A *plugin* that automatically applies these icons within the Joplin Desktop App is currently planned.
 
 ## icon_tool.py 
 
