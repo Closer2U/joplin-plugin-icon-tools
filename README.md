@@ -8,6 +8,20 @@ The tool takes SVG-files as input and recursively applies a pre-defined color sc
 ## icon_tool.py 
 
 ### Usage
+#### Preparations - Files and Folders
+
+**Key rules the tool relies on:**
+
+- **Folder names** are cosmetic — the tool recurses all subfolders, so naming is just for your own organisation.
+- **Filename leading digit** (`1-`, `2-`, `3-`, `4-`) determines which level subfolder the output lands in. This is the only thing the tool actually parses.
+- **SVG color targets** — templates must use one of these for the "to be colorized" elements:
+  - `fill="currentColor"` — filled icons
+  - `stroke="currentColor"` — outline icons
+  - `fill="#000000"` — explicit black 
+  - Bare `<g>` with no fill attribute (first `<g>` only)
+- **Status/dot colors** (any other hardcoded hex like `#19F781`) are left untouched automatically.
+
+#### The script
 ```shell
   # Process an entire source tree (recommended)
   python3 icon_tool.py process-tree ./source_icons --out-dir ./output
