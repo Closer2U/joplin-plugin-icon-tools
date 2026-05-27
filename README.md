@@ -49,7 +49,7 @@ The tool takes SVG-files as input and recursively applies a pre-defined color sc
 > Tested for [Tabler Icons](https://tabler.io/icons). 
 > Other icons need adjustment.
 
-**Example Workflow:**
+**Example Workflow:** <br>
 Color targets replaced (in order, non-destructively):
   1. fill="currentColor"   → decade color  (SecondLevel filled icons)
   2. stroke="currentColor" → decade color  (outline / dot icons)
