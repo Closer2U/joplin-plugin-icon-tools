@@ -1,5 +1,7 @@
 # Joplin Auto Icon Assigner
 
+![](_screenshots/modal.png)
+
 ## What this plugin does
 
 Joplin lets users manually set custom notebook icons, but changing icons for a large nested notebook tree is slow. This plugin helps automate that process.
