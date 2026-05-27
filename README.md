@@ -1,9 +1,10 @@
-# Icon generation for Joplin Notebooks
+# Icon generation and batch assignment for Joplin notebooks
 
 The tool takes SVG-files as input and recursively applies a pre-defined color scheme, then exports them to PNG-files.
 
-> [!NOTE]
-> A *plugin* that automatically applies these icons within the Joplin Desktop App is currently planned.
+> [!TIP]
+> A [*plugin*](joplin-plugin_auto-icon-assigner/README.md) that automatically applies these icons within the Joplin Desktop App is now available.
+
 
 ## icon_tool.py 
 

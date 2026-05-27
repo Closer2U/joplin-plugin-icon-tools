@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "id": "com.arena.joplin-auto-icon-assigner",
+  "app_min_version": "2.13",
+  "name": "Auto Icon Assigner",
+  "version": "0.1.8",
+  "description": "Assign notebook icons recursively by hierarchy level and optionally auto-assign icons to newly created notebooks.",
+  "author": "Arena.ai Agent Mode",
+  "homepage_url": "https://joplinapp.org/",
+  "platforms": [
+    "desktop"
+  ],
+  "categories": [
+    "productivity",
+    "appearance"
+  ],
+  "icons": {}
+}
