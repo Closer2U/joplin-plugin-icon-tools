@@ -5,6 +5,14 @@ The tool takes SVG-files as input and recursively applies a pre-defined color sc
 > [!TIP]
 > A [*plugin*](joplin-plugin_auto-icon-assigner/README.md) that automatically applies these icons within the Joplin Desktop App is now available.
 
+<div align="center">
+
+| <img width="301" height="321" alt="1-4th" src="https://github.com/user-attachments/assets/f31ea635-0a1f-4ed9-b9e4-20e26a5bc699" /> | <img width="301" height="642" alt="4th" src="https://github.com/user-attachments/assets/b3e6133d-8b35-499b-8192-18258d8fdaa8" /> | 
+| --- | --- |
+| Top-Level Notebooks (JDex) | Showcase of 2nd, 3rd, 4th and below level |
+
+  
+</div>
 
 ## icon_tool.py 
 
